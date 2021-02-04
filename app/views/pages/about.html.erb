@@ -3,8 +3,6 @@
   <head>
     <link href="stylesheet/style.css" rel="stylesheet">
     <h1>Tell me About you</h1>
-    <%= link_to 'Article Listing', articles_path %> |
-    <%= link_to 'Home page', root_path %>
     <meta charset="utf-8">
     <title>Tell me about you</title>
   </head>
@@ -24,7 +22,9 @@
     <textarea id="msg" name="user_message"></textarea>
   </li>
   <li class="button">
-  <button type="submit">Send your message</button>
+  <button type="submit">Send your message</button> |
+  <%= link_to 'Article Listing', articles_path %> |
+  <%= link_to 'Home page', root_path %>
 </li>
  </ul>
 </form>
