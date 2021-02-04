@@ -22,7 +22,6 @@ class ArticlesController < ApplicationController
       flash[:notice] = "Article was created successully."
       redirect_to @article
     else
-      flash[:notice] = "Article creation was unsuccessful"
       render 'new'
   end
 end
