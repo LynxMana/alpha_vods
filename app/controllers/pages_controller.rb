@@ -4,5 +4,17 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def edit
+  end
+
+  def show
+  end
+
+  def index
+  end
+
+  def new
+  end
   
 end
