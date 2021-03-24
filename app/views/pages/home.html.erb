@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="stylesheet/style.css" rel="stylesheet">
-    <h1>Lynx Of The Mana</h1>
-    <meta charset="utf-8">
-    <title>LynxMana</title>
-  </head>
-  <body>
-    <p>Heyoo! how's it going?</p>
-    <img src="https://media1.tenor.com/images/9589e411ec8525afdf153434777dd8f2/tenor.gif?itemid=13582238" alt="My test image">
-<br>
-</br>
-    <a href="https://steamcommunity.com/id/LynxMana"> LynxMana</a>
-    <ul>
-      <%= link_to 'Article Listing', articles_path %> |
-      <%= link_to 'About page', about_path %>
-  <li>About me</li>
-  <li>Hobbies</li>
-  <li>History</li>
-  <li>Future</li>
-  <li>Experience</li>
-  <li><a href="form.html">Tell me about you</a></li>
-</ul>
-
-<p>Never give up, even when things get tough </p>
-
-  </body>
-</html>
+<header class="viewport-header">
+    <div class="container" id="home-container">
+      <div class="jumbotron text-center <text-white></text-white>">
+        <h1 class="display-4">Lynx of the Mana</h1>
+        <p>Welcome to the best website of the decade, no-one has able to produce this high level of coding on any website that exists in this current era.</p>
+        <hr class="my-4">
+        <p>Here you can create your own article by clicking the button below</p>
+        <a class="btn btn-success btn-lg" <%= link_to 'Article Listing', articles_path %> </a>
+      </div>
+    </div>
+    </header>

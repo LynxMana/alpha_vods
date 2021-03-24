@@ -10,8 +10,17 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="d-flex flex-column">
+    <%= render 'layouts/navigation' %>
+    <div id="page-content">
     <%= render 'layouts/messages' %>
     <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
+    <video autoplay loop id="myVideo">
+      <source src="https://genshin.mihoyo.com/_nuxt/videos/3e78e80.mp4" type="video/mp4">
+    </video>
+
+
   </body>
 </html>
