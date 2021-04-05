@@ -26,12 +26,12 @@
                     </div>
                       <br>
                   <div class="form-group text-center">
-                    <%= f.submit class: "btn btn-outline-light btn-lg" %>
+                    <%= f.submit(@user.new_record? ? "Sign up" : "Update account", class: "btn btn-outline-light btn-lg") %>
                   </div>
               <% end %>
           </div>
           <div class="mb-3">
-              <%= link_to ' [ Cancel and return to article listing ]', articles_path, class: "text-center text-light" %>
+              <%= link_to '[ Cancel and return to article listing ]', articles_path, class: "text-center text-light" %>
               </div>
         </div>
 </div>
