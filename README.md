@@ -1,2 +1,0 @@
-# alpha_vods
-blalala
